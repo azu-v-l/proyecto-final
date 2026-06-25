@@ -16,8 +16,9 @@ header {
     align-items: center;
 
 }
-.fondo{
+.fondo1{
     background-color: white;
+    border-radius: 20px;
 }
 
 .logo img {
@@ -41,26 +42,27 @@ text-align: center;
     font-size: 24px;
  }
 
-.parra1{
+.fondo1{
+    background-color: white;
+    border-radius: 20px;
+}
+.p1{
     width: 80%;
     margin: 30px auto;
     background-color: white;
     border-radius: 10px;
     padding: 30px;
-    
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 }
-
 .parra1 article{
     text-align: justify;
-    background-color: white;
-   
+    line-height: 1.6;
 }
 
 .parra1 p{
     margin-bottom: 15px;
     font-size: 18px;
 }
-
 .parra1 a{
     display: inline-block;
     background-color: #925e22;

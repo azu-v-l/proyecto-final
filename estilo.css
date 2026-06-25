@@ -16,6 +16,9 @@ header {
     align-items: center;
 
 }
+.fondo{
+    background-color: white;
+}
 
 .logo img {
     text-align:left;

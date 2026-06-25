@@ -1,3 +1,7 @@
+*{
+    background-image: url(./asssets/img/fondo.png);
+
+}
 header {
     background-color: #F7E8D1;
     display: flex;
@@ -6,14 +10,32 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
     align-items: center;
+
 }
 
 .logo img {
-    text-align: left;
-    width: 200px;
+    text-align:left;
+    width: 300px;
     height: auto;
 
 }
-header h1{
-   justify-content: center;
+.titulos{
+    flex: 1;
+text-align: center;
+}
+.titulos h1{
+    margin: 0;
+    color: #925e22;
+    font-size: 40px;
+}
+ .titulos h2{
+     margin-top: 10px;
+    color: #925e22;
+    font-size: 24px;
+ }
+
+main{
+    background-color: white;
+   background-color: white;
+  border-radius: 7px;
 }

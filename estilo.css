@@ -1,12 +1,7 @@
-*{
-    background-image: url(./asssets/img/fondo.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-}
-header {
+ body{
+    background-color: black;
+ }
+ header {
     background-color: #F7E8D1;
     display: flex;
     text-align: center;
@@ -43,8 +38,13 @@ text-align: center;
  }
 
 .fondo1{
+    display: flex;
     background-color: white;
     border-radius: 20px;
+    margin: 0% auto;
+    gap: 5px;
+    width: 60%;
+    padding: 20px;
 }
 .p1{
     width: 80%;
@@ -70,9 +70,17 @@ text-align: center;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 10px auto;
+    
 }
 
 .parra1 a:hover{
     background-color: #7a4d1c;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
 }

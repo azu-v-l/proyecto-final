@@ -1,9 +1,8 @@
 *{
     background-image: url(./asssets/img/fondo.png);
-
 }
 header {
-    background-color: #ffffff;
+    background-color: #F7E8D1;
     display: flex;
     text-align: center;
     color: white;
@@ -35,7 +34,8 @@ text-align: center;
  }
 
 main{
-    background-color: white;
+
    background-color: white;
-  border-radius: 7px;
+   border-radius: 7px;
+   justify-content: center;
 }

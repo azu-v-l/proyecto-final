@@ -69,24 +69,26 @@ body {
  }
  .parra2
 
- .contenido {
-     display: flex;
-     align-items: center;
-     gap: 40px;
- }
+ .contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
- .texto {
-     width: 70%;
- }
+.texto{
+    width: 65%;
+}
 
- .img {
-     width: 30%;
- }
+.img{
+    width: 25%;
+    text-align: center;
+}
 
- .img img {
-     width: 180px;
- }
-
+.img img{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px #c7b299;
+}
  .p {
      margin-top: 20px;
  }

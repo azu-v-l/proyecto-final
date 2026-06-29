@@ -34,14 +34,14 @@ header {
 
 .titulos h1 {
     margin: 0;
-    color: #F7E8D1;
+    color: #fbf3e6;
     font-size: 40px;
 
 }
 
 .titulos h2 {
     margin-top: 10px;
-    color: #F7E8D1;
+    color: #fff9ef;
     font-size: 24px;
 }
 
@@ -100,23 +100,25 @@ header {
 }
 
 .campos {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-}
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+ }
 
-fieldset {
-    margin-bottom: 20%;
-    padding: 15px;
-    border: 2px solid #925e22;
-    background-color: #ffefdc;
-}
+ fieldset {
+     margin-bottom: 20%;
+     padding: 15px;
+     border: 2px solid #925e22;
+     background-color: #ffefdc;
+ }
 
-.contenedorf {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
+ .cotenedorf{
+     display: flex;
+     justify-content: center;
+     padding: 0;
+     
+} 
+ 
 
 .boton {
     width: 150px;
@@ -125,6 +127,7 @@ fieldset {
     text-align: center;
     border-radius: 8px;
     margin: 20px auto;
+    box-shadow:0 4px 8px #c7b299;
 }
 
 .boton a {
@@ -278,5 +281,34 @@ nav a:hover {
     border-radius: 4px;
     padding: 30px;
     margin: 30px auto;
-      box-shadow: 0 4px 8px #c7b299
+      box-shadow: 0 4px 8px #c7b299;
+}
+.footer{
+    background-color: #925e22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer h3{
+    margin: 0;
+}
+
+.footer p{
+    margin: 10px 0;
+}
+
+.footer-menu{
+    margin: 15px 0;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.footer-menu a:hover{
+    color: #F7E8D1;
 }
